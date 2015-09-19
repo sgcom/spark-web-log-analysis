@@ -1,5 +1,7 @@
 ### Exploring a public Web log data set using Apache Spark
 
+---
+
 The dataset is available from [The Internet Traffic Archive](http://ita.ee.lbl.gov/index.html).
 
 ##### Dataset source: http://ita.ee.lbl.gov/html/contrib/Sask-HTTP.html
@@ -28,4 +30,6 @@ The log contains over **_2,400,000_** lines from **_June to December 1995_** - t
 
 ---
 
- * Part 1:  [UofS_Logs_1_ETL.ipynb](https://github.com/sgcom/spark-web-log-analysis/blob/master/UofS_Logs_1_ETL.ipynb) - Python notebook. Parses the row log file and loads it into Parquet data store for further analysis with Spark SQL and Spark dataframes. [Parquet](https://parquet.apache.org/) is columnar data format, very efficient for analytics.
+#### Artifacts
+
+ * [UofS_Logs_1_ETL.ipynb](https://github.com/sgcom/spark-web-log-analysis/blob/master/UofS_Logs_1_ETL.ipynb) - Python notebook. Parses the raw log file and loads it into Parquet data store for further analysis with Spark SQL and Spark dataframes. [Parquet](https://parquet.apache.org/) is columnar data format, very efficient for analytics.
