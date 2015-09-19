@@ -10,6 +10,8 @@ The dataset is available from [The Internet Traffic Archive](http://ita.ee.lbl.g
 
 This trace contains seven months’ worth of all HTTP requests to the University of Saskatchewan's WWW server. The University of Saskatchewan is located in Saskatoon, Saskatchewan, Canada.
 
+The log contains over **_2,400,000_** lines from **_June to December 1995_** - the early days of the World Wide Web.
+
 #### Log file sample and format:
 
 ```
@@ -25,8 +27,6 @@ corvas.cts.com - - [01/Jun/1995:00:44:38 -0600] "GET /~macpherc/hibs/hibs.html" 
  - URL accessed relative to the server root. Also referred as "endpoint".
  - HTTP response status code
  - Content length
-
-The log contains over **_2,400,000_** lines from **_June to December 1995_** - the early days of the World Wide Web.
 
 ---
 
