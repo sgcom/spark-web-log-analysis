@@ -32,4 +32,5 @@ corvas.cts.com - - [01/Jun/1995:00:44:38 -0600] "GET /~macpherc/hibs/hibs.html" 
 
 #### Artifacts
 
- * [UofS_Logs_1_ETL.ipynb](https://github.com/sgcom/spark-web-log-analysis/blob/master/UofS_Logs_1_ETL.ipynb) - Python notebook. Parses the raw log file and loads it into Parquet data store for further analysis with Spark SQL and Spark dataframes. [Parquet](https://parquet.apache.org/) is columnar data format, very efficient for analytics.
+ * [UofS_Logs_1_ETL.ipynb](https://github.com/sgcom/spark-web-log-analysis/blob/master/UofS_Logs_1_ETL.ipynb) - IPython notebook. Parses the raw log file and loads it into Parquet data store for further analysis with Spark SQL and Spark dataframes. [Parquet](https://parquet.apache.org/) is columnar data format, very efficient for analytics.
+ * [UofS_Logs_2_Explore.ipynb](https://github.com/sgcom/spark-web-log-analysis/blob/master/UofS_Logs_2_Explore.ipynb) - IPython notebook. Run SparkSQL and dataframes queries to explore the log data.
