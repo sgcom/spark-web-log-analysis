@@ -1,8 +1,8 @@
-### Exploring a public Web log data set using Apache Spark
+### Exploring a Web server log using Apache Spark 1.5
 
 ---
 
-The dataset is available from [The Internet Traffic Archive](http://ita.ee.lbl.gov/index.html).
+The dataset is publicly available from [The Internet Traffic Archive](http://ita.ee.lbl.gov/index.html).
 
 ##### Dataset source: http://ita.ee.lbl.gov/html/contrib/Sask-HTTP.html
 
@@ -30,7 +30,8 @@ corvas.cts.com - - [01/Jun/1995:00:44:38 -0600] "GET /~macpherc/hibs/hibs.html" 
 
 ---
 
-#### Artifacts
+#### Contents
 
  * [UofS_Logs_1_ETL.ipynb](https://github.com/sgcom/spark-web-log-analysis/blob/master/UofS_Logs_1_ETL.ipynb) - IPython notebook. Parses the raw log file and loads it into Parquet data store for further analysis with Spark SQL and Spark dataframes. [Parquet](https://parquet.apache.org/) is columnar data format, very efficient for analytics.
- * [UofS_Logs_2_Explore.ipynb](https://github.com/sgcom/spark-web-log-analysis/blob/master/UofS_Logs_2_Explore.ipynb) - IPython notebook. Run SparkSQL and dataframes queries to explore the log data.
+
+* [UofS_Logs_2_Explore.ipynb](https://github.com/sgcom/spark-web-log-analysis/blob/master/UofS_Logs_2_Explore.ipynb) - IPython notebook. Use SparkSQL queries and dataframes to explore the server log data.
